@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import Navbar from "./components/Navbar";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='font-bold'>
-      Hello Ibrahim
+    <div className='w-full-screen h-[100vh] bg-[#f2f4f8]'>
+      <Navbar/>
     </div>
   )
 }
