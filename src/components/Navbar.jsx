@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between p-5 sticky top-0'> 
+    <nav className='flex justify-between p-5 sticky top-0 text-TextPrimary border border-red-600 font-semibold leading-5 tracking-wider'> 
         <ul className='flex basis-[40%]'>
             <li className='cursor-pointer text-[20px] font-bold'>Ibrahim</li>
         </ul>

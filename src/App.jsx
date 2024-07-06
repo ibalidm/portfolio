@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 function App() {
 
   return (
-    <div className='w-full-screen h-[100vh] bg-[#f2f4f8]'>
+    <div className='w-full-screen h-[100vh] bg-primary'>
       <Navbar/>
     </div>
   )
