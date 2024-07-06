@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 
 function App() {
 
   return (
-    <div className='w-full-screen h-[100vh] bg-primary'>
+    <div className='w-full-screen bg-primary'>
       <Navbar/>
+      <Home/>
     </div>
   )
 }

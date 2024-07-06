@@ -2,7 +2,7 @@ import { GoDownload } from "react-icons/go";
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center p-5 sticky top-0 text-TextPrimary font-semibold leading-5 tracking-wider'> 
+    <nav className='flex justify-between items-center p-5 text-TextPrimary font-semibold leading-5 tracking-wider'> 
         <ul className='flex basis-[40%]'>
             <li className='cursor-pointer text-[20px] font-bold'>Ibrahim</li>
         </ul>

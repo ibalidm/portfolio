@@ -18,7 +18,7 @@ export default {
         },
         TextSecondary: {
           DEFAULT: "#508D4E",
-        }
+        },
       }
     },
   },
