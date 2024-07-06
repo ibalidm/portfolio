@@ -12,8 +12,16 @@ const Home = () => {
     <section className='flex h-[100%] p-5 gap-4'>
       <div className="flex flex-col bg-[#FFFFFF] p-10 rounded-[15px] basis-[55%] bg-gradient-to-l from-white to-[#D6EFD8] text-wrap">
         <div className='flex flex-col basis-[50%] gap-10'>
-          <div className='text-[20px] font-semibold pt-10'> Hey! <br/> <span className='text-[30px] font-bold leading-1'>I'm Ibrahim Ali</span> Digital Marketer<br/> with 5 years of experience </div>
-          <div className='text-[18px] text-normal'> 
+          <div className='text-[20px] font-semibold pt-10 leading-10'> Hey! 
+            < br/> 
+            <span className='text-[30px] font-bold leading-1 mr-4'>I'm Ibrahim Ali</span> 
+              <span className='tracking-widest'>
+                Digital Marketer
+              </span>
+            <br/> 
+            <span className='text-gray-600 leading-3 tracking-widest'> with 5 years of experience</span> 
+          </div>
+          <div className='text-[17px] text-normal text-gray-500'> 
             Passionate digital marketing freelancer with 5 years of expertise. Specializing in SEO, 
             Social Media, Email, Advanced Facebook Marketing, and Ad Campaigns. Let's elevate your online presence together! 
           </div>
